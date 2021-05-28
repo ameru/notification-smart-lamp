@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>Label</key>
+<string>users.amy.check-gmail</string> <!-- replace this string with your file name -->
+<key>OnDemand</key>
+<true/>
+<key>ProgramArguments</key>
+<array>
+<string>/Users/amy/opt/anaconda3/bin/python3</string> <!-- replace this string with your python interpreter path-->
+<string>/Users/amy/Desktop/lamp_script.py</string> <!-- replace this string with your python script path -->
+</array>
+<key>StartInterval</key>
+<integer>60</integer>
+</dict>
+</plist>
